@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/60266519/148319744-210e25de-f3ca-4340-9e31-b495f0b1c330.png" alt="Smart Job Logo" width="100">
+  <img src="https://yt3.ggpht.com/j8A1kSKSiUoVDNxoNLUMN0Yr3F6ihGo1j6FFuxpmDdU8u2lY1qyFDjQqnzp8Dw-SpVOMo_jleSc=s900-c-k-c0x00ffffff-no-rj" alt="Ha Music Logo" width="100">
 </p>
 <h3 align="center">
-  Smart Job: Smart system for landing you in.
+  Ha Music
 </h3>
 
-# What is Smart Job:
-Smart Job is a web application system for you to land your first job. As a user, you can search for a good deal job and come talk right in with the HR. As an HR, you can use this website to get in touch to the users closer, faster, and easier.
+# What is Ha Music:
+
 
 # Technology stack.
 - [PHP](https://www.php.net/) For our web serving.
