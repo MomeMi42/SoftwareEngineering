@@ -16,7 +16,7 @@ body {
 }
 
 .bg-screen {
-    background-color: #101214b6;
+    background-color: #406882;
 }
 
 
@@ -48,7 +48,7 @@ body {
  h1,
 .h1 {
     font-size: calc(1.375rem + 1.5vw);
-    text-align: center;
+    /*text-align: center;*/
     color: white;
 } 
 
@@ -209,7 +209,7 @@ button:hover {
     cursor: pointer;
     display: block;
     height: 250px;
-    background-color: #0b0142;
+    background-color: #b1d0e0;
     border-radius: 30px;
 }
 
@@ -235,7 +235,7 @@ button:hover {
 
 @media only screen and (min-width: 768px) {
     .work-content {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-columns: repeat(4, minmax(0, 1fr));
     }
 }
 
