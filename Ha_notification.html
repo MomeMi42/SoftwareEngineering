@@ -50,36 +50,36 @@
               </a>
              </div>
             <ul>
-                <li>
-                    <a href="">
-                        <span class="icon"><i class="fas fa-home"></i></span>
-                        <span class="item">หน้าหลัก</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="" class="active">
-                        <span class="icon"><i class="fas fa-user-friends"></i></span>
-                        <span class="item">โปรไฟล์</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <span class="icon"><i class="fas fa-desktop"></i></span>
-                        <span class="item">เพลงของฉัน</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <span class="icon"><i class="fas fa-heart"></i></span>
-                        <span class="item">เพลงที่ถูกใจ</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <span class="icon"><i class="fas fa-bell"></i></span>
-                        <span class="item">แจ้งเตือน</span>
-                    </a>
-                </li>
+              <li>
+                <a href="Main.html">
+                    <span class="icon"><i class="fas fa-home"></i></span>
+                    <span class="item">หน้าหลัก</span>
+                </a>
+            </li>
+            <li>
+                <a href="ArtistFollow.html" >
+                    <span class="icon"><i class="fas fa-user-friends"></i></span>
+                    <span class="item">ศิลปิน</span>
+                </a>
+            </li>
+            <li>
+                <a href="SongMy.html">
+                    <span class="icon"><i class="fas fa-desktop"></i></span>
+                    <span class="item">เพลงของฉัน</span>
+                </a>
+            </li>
+            <li>
+                <a href="SongLike.html">
+                    <span class="icon"><i class="fas fa-heart"></i></span>
+                    <span class="item">เพลงที่ถูกใจ</span>
+                </a>
+            </li>
+            <li>
+                <a href="Ha_notification.html" class="active">
+                    <span class="icon"><i class="fas fa-bell"></i></span>
+                    <span class="item">แจ้งเตือน</span>
+                </a>
+            </li>
             </ul>
         </div>
     </header>
@@ -97,92 +97,4 @@
     
       
   </body>
-
-  <style>
-    .maingrid{
-      display: grid;
-      grid-template-columns: auto auto;
-      grid-template-rows: 200px auto;
-      grid-template-areas:
-        'photo photo photo'
-        'head head head'
-        'button button tutton';
-       grid-row-gap: 5px;
-       grid-column-gap: 5px;
-       padding-top: 5px;
-       padding-right: 5px;
-       padding-left: 5px;
-    }
-     .submain{
-       padding-top: 50px;
-       padding-right: 5px;
-       padding-left: 50px;
-    }
-    
-    .page-head{
-      grid-area: head;
-    }
-    .page-main{
-      grid-area: main;
-    }
-    .page-photo{
-      grid-area: photo;
-    }
-
-    .content{
-      background-color: rgba(165, 165, 165, 0.753);
-      box-sizing: border-box;
-      padding: 10px;
-    }
-
-    a,p{
-      color: white;
-    }
-
-    h1 {
-  display: block;
-  font-size: 3em;
-  margin-top: 0.67em;
-  margin-bottom: 0em;
-  margin-left: 80px;
-  margin-right: 0;
-  font-weight: bold;
-}
-
-    .noti{
-      border: none;
-      width: 80%;
-      padding: 20px 400px;
-      text-align: left;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 0px 2px;
-      transition-duration: 0.4s;
-      cursor: pointer;
-      border-radius: 10px;
-    }
-
-    .notic{
-      background-color: rgb(#fffafa);
-      color: black;
-      border: 0px;
-    }
-
-    .notic:hover{
-      background-color: aliceblue;
-      color: black;
-      border: 0px;
-    }
-
-    .button{
-      text-align: left;
-    padding-left: 15px;
-    padding-right: 0;
-    width: 80%;
-    }
-
-
-  </style>
-
 </html>
